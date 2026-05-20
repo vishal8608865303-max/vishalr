@@ -1,1 +1,23 @@
-# vishalr
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>F&Co Company</title>
+</head>
+<body>
+    <head>
+    <center><em><h1 style="font-size:300%;">F&co Compeny</h1></em>
+    <a href="https://www.google.com">visit F&Co Compeny</a><br>
+    <form action="https://formsubmit.co/vishal8608865303@gmail.com" method="POST">
+            <em>
+     <h3>Name:</h3><input type="text" name="" id=""><br>
+     <h3>Gmail:</h3><input type="gmail" name="" id=""><br>
+     <h3>You Bron:</h3><input type="date" name="" id=""><br>
+     <h3>Adderss:</h3><input type="text" name="" id=""><br>
+    <br><button  style="background-color:Tomato;">Sumit</button></br>
+            </em>
+     </center>
+    </form>
+    </head>
+</body>
+</html>
