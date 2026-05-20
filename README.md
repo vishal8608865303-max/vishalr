@@ -16,7 +16,7 @@
 
 body{
     background:#0f172a;
-    color:white;
+    color🐦‍⬛;
     line-height:1.6;
 }
 
