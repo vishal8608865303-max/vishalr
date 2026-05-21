@@ -228,11 +228,13 @@ footer{
         width:0;
     }
 }
+
 </style>
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header>
     <h1>Vishal</h1>
     <p>Roll No: 12345 | B.Sc Computer Science</p>
@@ -240,6 +242,7 @@ footer{
     <p>ABC College of Arts and Science</p>
 </header>
 
+<!-- NAVIGATION -->
 <nav>
     <ul>
         <li><a href="#about">About</a></li>
@@ -253,6 +256,7 @@ footer{
     </ul>
 </nav>
 
+<!-- ABOUT -->
 <section id="about">
     <h2 class="section-title">About Me</h2>
 
@@ -261,28 +265,95 @@ footer{
 
         <div class="about-text">
             <p>
-                Hello! I am <strong>Vishal</strong>, a passionate Computer Science student interested in web development and UI design.
+                Hello! I am <strong>Vishal</strong>, a passionate Computer Science student
+                interested in web development, software engineering, and UI/UX designing.
+            </p>
+
+            <br>
+
+            <p>
+                I enjoy creating modern websites, learning new technologies,
+                and solving real-world problems using programming.
+            </p>
+
+            <br>
+
+            <p>
+                Strengths: Teamwork, Creativity, Leadership, Communication.
+            </p>
+
+            <br>
+
+            <p>
+                Personal Interests: Gaming, Designing, Photography, Video Editing.
             </p>
         </div>
     </div>
 </section>
 
+<!-- EXPERIENCE -->
+<section id="experience">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Web Development Intern</h3>
+            <p><strong>Organization:</strong> XYZ Technologies</p>
+            <p><strong>Duration:</strong> 2 Months</p>
+            <p>
+                Developed responsive web pages using HTML and CSS.
+                Improved UI design and optimized website performance.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Event Coordinator</h3>
+            <p><strong>College Coding Club</strong></p>
+            <p>
+                Coordinated technical events and managed student teams
+                during symposium activities.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
 <section id="projects">
     <h2 class="section-title">Projects</h2>
 
     <div class="card-container">
+
         <div class="card">
-            <h3>Portfolio Website</h3>
-            <p>Created using HTML and CSS.</p>
+            <h3>Personal Portfolio Website</h3>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <p>
+                Created a responsive portfolio website to showcase
+                skills, projects, and achievements.
+            </p>
         </div>
 
         <div class="card">
             <h3>Student Management System</h3>
-            <p>Developed using Python and MySQL.</p>
+            <p><strong>Technologies:</strong> Python, MySQL</p>
+            <p>
+                Developed a system to manage student records efficiently.
+            </p>
         </div>
+
+        <div class="card">
+            <h3>Mini Calculator</h3>
+            <p><strong>Technologies:</strong> Java</p>
+            <p>
+                Designed a calculator application with arithmetic operations.
+            </p>
+        </div>
+
     </div>
 </section>
 
+<!-- SKILLS -->
 <section id="skills">
     <h2 class="section-title">Skills</h2>
 
@@ -306,8 +377,87 @@ footer{
             <div class="skill-fill python"></div>
         </div>
     </div>
+
+    <div class="skill">
+        <h3>MySQL</h3>
+        <div class="skill-bar">
+            <div class="skill-fill mysql"></div>
+        </div>
+    </div>
+
+    <br>
+
+    <h3>Software Tools</h3>
+    <ul>
+        <li>Canva</li>
+        <li>Photoshop</li>
+        <li>MS Office</li>
+        <li>Blender</li>
+    </ul>
+
+    <br>
+
+    <h3>Languages Known</h3>
+    <ol>
+        <li>English - Fluent</li>
+        <li>Tamil - Fluent</li>
+        <li>Hindi - Intermediate</li>
+    </ol>
 </section>
 
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+    <h2 class="section-title">Achievements</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Best Project Award</h3>
+            <p>Won first prize in inter-college project expo.</p>
+        </div>
+
+        <div class="card">
+            <h3>Python Certification</h3>
+            <p>Completed advanced Python programming certification.</p>
+        </div>
+
+        <div class="card">
+            <h3>Hackathon Finalist</h3>
+            <p>Selected among top teams in coding competition.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ENGAGEMENT -->
+<section id="engagement">
+    <h2 class="section-title">Engagement & Participation</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Web Development Workshop</h3>
+            <p><strong>Organizer:</strong> Tech Club</p>
+            <p><strong>Year:</strong> 2025</p>
+            <p>Learned responsive web design techniques.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cultural Event</h3>
+            <p><strong>Role:</strong> Volunteer</p>
+            <p>Managed event arrangements and coordination.</p>
+        </div>
+
+        <div class="card">
+            <h3>Sports Participation</h3>
+            <p><strong>Level:</strong> College Level</p>
+            <p>Participated in football tournament.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- EDUCATION -->
 <section id="education">
     <h2 class="section-title">Education</h2>
 
@@ -316,32 +466,75 @@ footer{
             <th>Qualification</th>
             <th>Institution</th>
             <th>Year</th>
+            <th>Grade</th>
         </tr>
 
         <tr>
             <td>B.Sc Computer Science</td>
             <td>ABC College</td>
             <td>2023 - 2026</td>
+            <td>8.5 CGPA</td>
+        </tr>
+
+        <tr>
+            <td>12th</td>
+            <td>State Board School</td>
+            <td>2023</td>
+            <td>85%</td>
+        </tr>
+
+        <tr>
+            <td>10th</td>
+            <td>State Board School</td>
+            <td>2021</td>
+            <td>90%</td>
         </tr>
     </table>
 </section>
 
+<!-- VIDEO SECTION -->
+<section>
+    <h2 class="section-title">My Introduction Video</h2>
+
+    <video width="100%" controls>
+        <source src="sample.mp4" type="video/mp4">
+    </video>
+</section>
+
+<!-- YOUTUBE IFRAME -->
+<section>
+    <h2 class="section-title">Embedded YouTube Video</h2>
+
+    <iframe width="100%" height="400"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+</section>
+
+<!-- CONTACT -->
 <section id="contact">
     <h2 class="section-title">Contact</h2>
 
     <div class="contact-links">
         <a href="mailto:vishal@gmail.com">Email: vishal@gmail.com</a>
         <a href="#">Phone: +91 9876543210</a>
+        <a href="#">LinkedIn Profile</a>
+        <a href="#">GitHub Profile</a>
+        <a href="#">Portfolio Website</a>
     </div>
 
+    <!-- CONTACT FORM -->
     <form>
         <input type="text" placeholder="Enter Your Name" required>
+
         <input type="email" placeholder="Enter Your Email" required>
+
         <textarea rows="6" placeholder="Enter Your Message"></textarea>
+
         <button type="submit">Send Message</button>
     </form>
 </section>
 
+<!-- FOOTER -->
 <footer>
     <p>© 2026 Vishal | Personal Resume Website</p>
 </footer>
