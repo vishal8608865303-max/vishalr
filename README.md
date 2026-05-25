@@ -115,8 +115,8 @@
 <header>
     <h1>JavaScript Mini Applications</h1>
 
-    <p><strong>Student Name:</strong> Vishal M</p>
-    <p><strong>Roll Number:</strong> S24422</p>
+    <p><strong>Student Name:</strong> saravana kannan r</p>
+    <p><strong>Roll Number:</strong> S24420</p>
     <p><strong>Department:</strong> Bachelor Of Computer Application (BCA)</p>
     <p><strong>Batch:</strong> 2024 - 2027</p>
     <p><strong>College Name:</strong> Cardamom Planters' Association College</p>
